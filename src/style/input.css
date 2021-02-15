@@ -1,0 +1,61 @@
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div .input {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+  align-self: center;
+  width: 100%;
+}
+.button-label-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+div .button-in > :first-child {
+  margin-bottom: 25px;
+}
+button {
+  border: none;
+  background: #f3f0f1;
+
+  padding: 0.2rem 1.7rem;
+  border-radius: 7px;
+  text-align: center;
+  transition: all 0.1s ease-in-out;
+
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+  color: #9a9a9a;
+
+  line-height: 60px;
+
+  font-size: 1rem;
+  font-weight: semibold;
+}
+button:hover {
+  opacity: 0.3;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+button:active {
+  opacity: 1;
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+  color: #79e3b6;
+}
+
+.label {
+  text-align: center;
+}
+#break-length {
+  width: 100%;
+}
+.label-wrap {
+  padding: 0.5rem 1rem;
+  color: #9a9a9a;
+}

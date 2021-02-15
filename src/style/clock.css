@@ -1,0 +1,51 @@
+.timer {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #f3f0f1;
+  border-radius: 50%;
+  box-shadow: -20px -20px 32px rgba(255, 255, 255, 0.8),
+    20px 20px 32px rgba(0, 0, 0, 0.2);
+}
+.timer-wrapper {
+  position: absolute;
+  font-size: 6.45rem;
+  color: #9a9a9a;
+}
+#timer-label {
+  text-align: center;
+  font-size: 1.2rem;
+}
+#time-left {
+  text-align: center;
+}
+
+/* ? Progress Ring */
+svg {
+  position: relative;
+  width: 100%;
+  width: 100%;
+}
+circle {
+  position: absolute;
+  fill: none;
+  stroke-width: 6;
+  stroke: #000;
+  transform: translate(50%, 50%) rotate(-90deg);
+  stroke-dasharray: 1238;
+  stroke-dashoffset: 1238;
+}
+.progress-b-ring {
+  z-index: 1;
+  stroke: rgba(233, 233, 233, 0.1);
+
+  stroke-dashoffset: 0;
+}
+.progress-ring {
+  z-index: 2;
+  stroke: rgba(0, 0, 0, 0.247);
+}
